@@ -1,11 +1,19 @@
 *{
-    background-image:url("./pictures/img1.jpeg");
-    background-repeat: no-repeat;
     text-align:justify;
     font: 'san serif';
     box-sizing: border-box;
-    background-color:green;
 }
+body {
+    border: 10px dotted black;
+    background: url(/pictures/rainbins.jpg);
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: 100% 1000%;
+}
+  p{
+      color:#cbeaed;
+  }
 nav {
     padding: 15px 0;
     background-color:#A20A0A;
@@ -28,7 +36,7 @@ ul>li{
     margin-left:120px;
     float: right;
     }
-h1{
+h1,h2,h3{
     padding:10px;
     color:blue;
     }
@@ -39,6 +47,7 @@ h1{
 #main{
     border-style:hidden;
     /*background-color:#BB9020;*/
+    background-image:url("./pictures/C.jpeg");
     }
 .one{
     padding:55px;
@@ -60,7 +69,8 @@ h1{
     text-shadow: 2px 2px 5px pink;
     }
 footer {
-    background-color: rgb(75, 65, 121);
+    background-color:#393e46;
+    border: 10px hidden ;
     padding: 10px;
     text-align: center;
     color: white;
@@ -76,3 +86,14 @@ div p:first-child{
     font-weight:bold;
     font-size:30px;
     }
+    button {
+        background-color: navy;
+        color: black;
+        padding:10px;
+    }
+    section {
+        display:flex;
+        flex-direction:column;
+        width: 33.33%; 
+        padding: 50px;
+      }
