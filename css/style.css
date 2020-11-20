@@ -1,11 +1,15 @@
 *{
-    background-image:url("./pictures/img1.jpeg");
-    background-repeat: no-repeat;
     text-align:justify;
     font: 'san serif';
-    box-sizing: border-box;
-    background-color:green;
 }
+body{
+    background-image:url(/pictures/back.jpeg);
+    background-size:contain;
+    background-repeat:repeat;
+    background-origin: border-box;
+    border: 10px dashed black;
+    padding: 25px;
+  }
 nav {
     padding: 15px 0;
     background-color:#A20A0A;
@@ -28,9 +32,10 @@ ul>li{
     margin-left:120px;
     float: right;
     }
-h1{
+h1,h2,h3{
     padding:10px;
     color:blue;
+    text-shadow: ;
     }
 #first{
     border-style: hidden;
@@ -75,4 +80,8 @@ footer>ul>li{
 div p:first-child{
     font-weight:bold;
     font-size:30px;
+    }
+    section{
+        display:flex;
+        flex-direction:column;
     }
