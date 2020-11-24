@@ -81,7 +81,7 @@ div p:first-child{
     font-weight:bold;
     font-size:30px;
     }
-    section{
-        display:flex;
-        flex-direction:column;
+section{
+    display:flex;
+    flex-direction:column;
     }
