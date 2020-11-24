@@ -1,6 +1,10 @@
 *{
     text-align:justify;
     font: 'san serif';
+    
+}
+p{
+    color:black;
 }
 body{
     background-image:url(/pictures/back.jpeg);
